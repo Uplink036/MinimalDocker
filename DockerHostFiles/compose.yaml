@@ -1,0 +1,5 @@
+services:
+  acomponent:
+    build: ./
+    volumes:
+      - ./:/app

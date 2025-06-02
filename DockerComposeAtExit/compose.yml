@@ -1,0 +1,6 @@
+services:
+  acomponent:
+    build: ./
+    volumes:
+      - ./:/app
+    stop_signal: SIGINT
